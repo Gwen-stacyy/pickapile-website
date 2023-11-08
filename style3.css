@@ -1,0 +1,45 @@
+ p {
+     padding: 10px;
+     font-size: large;
+ }
+ h1{
+    padding-left: 20px;
+     font-size: large;
+ }
+
+
+ .box {
+     display: flex;
+    
+     cursor: pointer;
+     padding-left: 40px;
+ }
+
+
+ .col:hover {
+     transform: translateY(-9px);
+     transition: .8s;
+
+ }
+
+
+ .card .card-body .card-title {
+     font-size: small;
+     padding-bottom: 5px;
+ }
+
+ .card:hover {
+     background-color: rgb(254, 226, 231);
+ }
+
+ .card .card-body .btn {
+     background-color: rgb(236, 183, 192);
+     border: double rgb(156, 141, 143) 3px;
+     padding-left: 11px;
+ }
+
+ .card .card-body .btn:hover {
+     background-color: rgb(210, 98, 172);
+     border-radius: 10px;
+ }
+ 
